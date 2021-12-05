@@ -67,7 +67,7 @@ import { writeFile } from 'fs';
 
         // output csv result
         const result = await LoadJsonToCsv(mergedProducts);
-        writeFile('./output/result1.csv', result, err => {
+        writeFile('./output/result_output.csv', result, err => {
             if (err) {
               console.error(err)
               return
